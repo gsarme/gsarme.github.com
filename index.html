@@ -1,0 +1,100 @@
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Giada Sarmentino</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <style type="text/css">
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #276182;
+    }
+
+    .dot{
+        width: 15px;
+        height: 15px;
+        margin: 0 2px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        animation-name: jumpingDots;
+        animation-duration: 1.4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .loading span:nth-child(3){
+        animation-delay: 0.4s;
+    }
+
+    .loading span:nth-child(4){
+        animation-delay: 0.8s;
+    }
+
+    @keyframes jumpingDots{
+        20%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-20px);
+        }
+    }
+
+    #button {
+     margin-top: 10px;
+     margin-right: 10px;
+     position:absolute;
+     top:0;
+     right:0;
+ }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157523584-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-157523584-1');
+    </script>
+    
+</head>
+<body>
+    <div>
+        <a href="mailto:info@giadasarmentino.dev" id="button" class="btn btn-success">Contact me</a>
+    </div>
+    <div>
+        <div style="color: cadetblue; text-align: center;">
+            giadasarmentino.dev
+        </div>
+        <div class="loading" style="text-align: center;">
+            <span style="color: #fff;font-size: 50px;">WORK IN PROGRESS</span>
+            <span class="dot"> </span>
+            <span class="dot"> </span>
+            <span class="dot"></span>
+        </div>
+        <div style="text-align: center; font-size: 25px;">
+            <a href="https://www.linkedin.com/in/giada-sarmentino-146b0214b/" target="_blank" style="color:cadetblue;">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/gsarme" target="_blank"  style="color:cadetblue;">
+              <i class="fab fa-github"></i>
+            </a>         
+        </div>
+    </div>
+    
+    
+</body>
+</html>
